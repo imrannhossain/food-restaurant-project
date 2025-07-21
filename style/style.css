@@ -167,3 +167,65 @@ text-align: center;
     margin-top: 50px;
     text-align: center;
 }
+
+#about-us{
+    display: flex;
+
+     justify-content: center;
+     text-align: center;
+     gap: 15px;
+     margin-top: 5px;
+}
+
+#about-us .img{
+    /* image 1 */
+    background: url(../assets/foods.png);
+width: 500px;
+height: 600px;
+ background-repeat: no-repeat;
+
+
+}
+
+#about-us .survey{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom:30px;
+margin-top: 50px;
+}
+
+#about-us .survey-text{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: 0%;
+
+opacity: 0.6;
+margin-bottom: 30px;
+
+}
+#about-us .follow{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 30px;
+}
+
+
+.social-icons{
+ gap: 15px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
