@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+ /* font-family: "Work Sans", sans-serif; */
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ .btn-container{
+    text-align: center;
+
+ }
+ .btn{
+    padding: 5px 15px 5px 15px;
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 600;
+line-height: 12px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+
+background: rgb(82, 195, 3);
+border: none;
+width: 195px;
+height: 40px;
+
+ }
+
+ #hero{
+    height:100vh;
+    background-image: linear-gradient(0deg, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%), url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+ }
+
+ #hero .hero-content{
+    width: 521.73px;
+    /* margin:0 auto; */
+ }
+
+
+
+ #hero .hero-content .sub-title{
+color: rgb(255, 255, 255);
+
+font-size: 15px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+
+ }
+
+#hero .hero-content .heading{
+
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 10px;
+
+}
+.box{
+    /* Frame 22 */
+position: static;
+width: 50px;
+height: 50px;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+background: rgb(255, 255, 255);
+margin: 0 auto;
+margin-bottom: 10px;
+}
+
