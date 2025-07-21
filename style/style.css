@@ -94,3 +94,75 @@ margin: 0 auto;
 margin-bottom: 10px;
 }
 
+
+
+#card-box{
+    width: 632.2px;
+    margin: 120px auto;
+}
+#card-box .info{
+
+}
+
+#card-box .title{
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#card-box .pra{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+}
+.card-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.card .image-box{
+    width: 200px;
+
+}
+.card .image-box{
+    width: 100%;
+}
+.card .shope{
+    padding: 7px 16px 7px 16px;
+    border-radius: 8px;
+
+background: rgba(82, 195, 3, 0.15);
+}
+.card .discount{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 600;
+
+
+letter-spacing: 0%;
+text-align: center;
+}
+
+.all{
+    margin-top: 50px;
+    text-align: center;
+}
